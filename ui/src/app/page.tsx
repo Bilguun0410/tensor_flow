@@ -2,14 +2,6 @@
 
 import DarkMode from "@/components/dark-mode";
 import { TableData } from "@/components/table-data";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
 import React, { useEffect, useRef, useState } from "react";
 
 export default function Home() {

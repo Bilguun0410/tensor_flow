@@ -28,6 +28,7 @@ cd api
 python3 -m venv tf-env
 source tf-env/bin/activate
 pip install -r requirements.txt
+python driver_behavior_model.py
 python app.py
 ```
 
@@ -46,6 +47,7 @@ Visit [http://localhost:3000](http://localhost:3000) and watch real-time predict
 ## 📁 Dataset
 
 Model trained on a custom dataset with 5 behavior classes:
+
 - `safe_driving`
 - `texting_phone`
 - `talking_phone`
